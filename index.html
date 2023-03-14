@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Calculator</title>
+  <link rel="shortcut icon" href="images/favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="title-container">
+
+      <div class="first-container">
+
+        <h3 id="title">calc</h3>
+
+        <div class="theme-container">
+          <span id="theme">THEME</span>
+          <div class="slider-container">
+
+            <div class="bullets">
+              <span>1</span>
+              <span>2</span>
+              <span>3</span>
+            </div>
+
+            <input type="range" min="1" max="3" value="0" class="slider">
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="display"></div>
+    </div>
+
+    <div class="numpad">
+
+      <div class="numpad-row">
+
+        <div class="row">
+          <div id="7" class="btn">7</div>
+          <div id ="4" class="btn">4</div>
+          <div id ="1" class="btn">1</div>
+          <div id ="dot" class="btn">.</div>
+        </div>
+
+        <div class="row">
+          <div id="8" class="btn">8</div>
+          <div id="5" class="btn">5</div>
+          <div id="2" class="btn">2</div>
+          <div id="0" class="btn">0</div>
+        </div>
+
+        <div class="row">
+          <div id="9" class="btn">9</div>
+          <div id="6" class="btn">6</div>
+          <div id="3" class="btn">3</div>
+          <div id="division" class="btn">/</div>
+        </div>
+
+        <div class="row">
+          <div id="DEL" class="DEL btn">DEL</div>
+          <div id="additon" class="btn">+</div>
+          <div id="subtract" class="btn">-</div>
+          <div id="multiply" class="btn">x</div>
+        </div>
+
+      </div>
+
+      <div class="last">
+        <div id="reset" class="RESET last btn">Reset</div>
+        <div id="equal" class="EQUAL last btn">=</div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+
+</body>
+
+</html>

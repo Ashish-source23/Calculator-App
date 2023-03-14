@@ -1,0 +1,108 @@
+body {
+  margin-top: 2%;
+  font-family: 'Spartan', sans-serif;
+  font-size: 2rem;
+  background-color: hsl(222, 26%, 31%);
+  text-align: center;
+}
+
+#title {
+  display: inline-block;
+}
+
+/* CSS for upper display */
+.container {
+  display: inline-block;
+}
+
+.first-container {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-bottom: -30px;
+}
+
+.theme-container {
+  display: inline-block;
+  padding-top: 30px;
+  font-size: 1rem;
+}
+
+/* CSS for theme slidebar */
+#theme {
+  margin-right: 15px;
+}
+
+.slider-container {
+  display: inline-block;
+}
+
+.bullets {
+  display: flex;
+  justify-content: space-around;
+}
+
+.slider {
+  -webkit-appearance: none;
+  border-radius: 15px;
+  width: 55px;
+  height: 20px;
+  background: hsl(223, 31%, 20%);
+}
+
+/* CSS for display */
+.display {
+  color: white;
+  margin: 5px 0px 10px;
+  display: inline-block;
+  background-color: hsl(224, 36%, 15%);
+  border-radius: 10px;
+  padding: 35px 0px 5px;
+  height: 80px;
+  width: 100%;
+}
+
+/* CSS for keypad */
+.numpad {
+  display: inline-block;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: hsl(223, 31%, 20%);
+  color: hsl(221, 14%, 31%);
+}
+
+.row {
+  display: inline-block;
+}
+
+.btn {
+  margin: 10px 5px 20px;
+  padding: 10px 30px 5px;
+  border-radius: 7px;
+  background-color: hsl(30, 25%, 89%);
+  box-shadow: 0 3px hsl(28, 16%, 65%);
+}
+
+.last {
+  display: inline-block;
+  color: white;
+}
+
+/* CSS for Special Keys */
+.DEL {
+  font-size: 1.5rem;
+  padding: 15px 15px 10px;
+  background-color: hsl(225, 21%, 49%);
+  box-shadow: 0 3px hsl(224, 28%, 35%);
+  color: white;
+}
+
+.RESET {
+  background-color: hsl(225, 21%, 49%);
+  box-shadow: 0 3px hsl(224, 28%, 35%);
+}
+
+.EQUAL {
+  background-color: hsl(6, 63%, 50%);
+  box-shadow: 0 3px hsl(6, 70%, 34%);
+}
